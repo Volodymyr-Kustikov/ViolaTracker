@@ -1,6 +1,9 @@
 {
   "expo": {
     "name": "my-app",
+    "assetBundlePatterns": [
+      "assets/fonts/*"
+    ],
     "slug": "my-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -33,7 +36,8 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
